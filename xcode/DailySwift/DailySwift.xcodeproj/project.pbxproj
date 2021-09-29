@@ -114,7 +114,6 @@
 				40A553062701A65500E54E3E /* Sources */,
 				40A553072701A65500E54E3E /* Frameworks */,
 				40A553082701A65500E54E3E /* Resources */,
-				123EAD0DB063776365BF5DCE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,23 +172,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		123EAD0DB063776365BF5DCE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DailySwift/Pods-DailySwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DailySwift/Pods-DailySwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DailySwift/Pods-DailySwift-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5BC210D27E4E53BB18686E18 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
